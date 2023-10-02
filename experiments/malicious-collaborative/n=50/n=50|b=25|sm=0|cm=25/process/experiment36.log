@@ -1,0 +1,753 @@
+Auction Protocol
+
+Auctioneer: Complexity of the task to be auctioned: nlogn
+Auctioneer: Problem size of the task to be auctioned: 800
+Auctioneer: The costliness factor of the task to be auctioned (unknown to bidders): 1.326
+Auctioneer: Hardware coefficients are uniformly distributed between: [0.462, 1.538]
+Auctioneer: Bidders know that their estimates of the task costliness are off by at most: 0.05 in both directions
+Auctioneer: The starting price of the auction is: $15736
+Evaluation agent: I am ready.
+Bidder11@192.168.1.5:1099/JADE: I am ready. (My initial reservation price is $6400, my hardware coefficient is 0.598, and my initial task costliness estimate is 1.387).
+Bidder23@192.168.1.5:1099/JADE: I am ready. (My initial reservation price is $10441, my hardware coefficient is 1.093, and my initial task costliness estimate is 1.238).
+Bidder18@192.168.1.5:1099/JADE: I am ready. (My initial reservation price is $5875, my hardware coefficient is 0.545, and my initial task costliness estimate is 1.397).
+Bidder17@192.168.1.5:1099/JADE: I am ready. (My initial reservation price is $7438, my hardware coefficient is 0.691, and my initial task costliness estimate is 1.395).
+Bidder24@192.168.1.5:1099/JADE: I am ready. (My initial reservation price is $5719, my hardware coefficient is 0.603, and my initial task costliness estimate is 1.229).
+Bidder8@192.168.1.5:1099/JADE: I am ready. (My initial reservation price is $8435, my hardware coefficient is 0.82, and my initial task costliness estimate is 1.333).
+Bidder19@192.168.1.5:1099/JADE: I am ready. (My initial reservation price is $6125, my hardware coefficient is 0.634, and my initial task costliness estimate is 1.252).
+Bidder12@192.168.1.5:1099/JADE: I am ready. (My initial reservation price is $9043, my hardware coefficient is 0.87, and my initial task costliness estimate is 1.347).
+Bidder9@192.168.1.5:1099/JADE: I am ready. (My initial reservation price is $8410, my hardware coefficient is 0.783, and my initial task costliness estimate is 1.392).
+Bidder13@192.168.1.5:1099/JADE: I am ready. (My initial reservation price is $15264, my hardware coefficient is 1.517, and my initial task costliness estimate is 1.304).
+Bidder2@192.168.1.5:1099/JADE: I am ready. (My initial reservation price is $6445, my hardware coefficient is 0.64, and my initial task costliness estimate is 1.305).
+Bidder16@192.168.1.5:1099/JADE: I am ready. (My initial reservation price is $8870, my hardware coefficient is 0.861, and my initial task costliness estimate is 1.335).
+Bidder22@192.168.1.5:1099/JADE: I am ready. (My initial reservation price is $8149, my hardware coefficient is 0.808, and my initial task costliness estimate is 1.307).
+Bidder21@192.168.1.5:1099/JADE: I am ready. (My initial reservation price is $8520, my hardware coefficient is 0.848, and my initial task costliness estimate is 1.302).
+Bidder14@192.168.1.5:1099/JADE: I am ready. (My initial reservation price is $7709, my hardware coefficient is 0.745, and my initial task costliness estimate is 1.341).
+MaliciousAgentCollaborative10@192.168.1.5:1099/JADE: I am ready. (My hardware coefficient is 0.794, and my initial task costliness estimate is 1.321).
+Bidder1@192.168.1.5:1099/JADE: I am ready. (My initial reservation price is $10480, my hardware coefficient is 1.006, and my initial task costliness estimate is 1.35).
+Bidder15@192.168.1.5:1099/JADE: I am ready. (My initial reservation price is $13530, my hardware coefficient is 1.353, and my initial task costliness estimate is 1.296).
+Bidder4@192.168.1.5:1099/JADE: I am ready. (My initial reservation price is $5365, my hardware coefficient is 0.52, and my initial task costliness estimate is 1.337).
+Bidder5@192.168.1.5:1099/JADE: I am ready. (My initial reservation price is $9462, my hardware coefficient is 0.952, and my initial task costliness estimate is 1.288).
+Bidder3@192.168.1.5:1099/JADE: I am ready. (My initial reservation price is $12188, my hardware coefficient is 1.17, and my initial task costliness estimate is 1.35).
+Bidder25@192.168.1.5:1099/JADE: I am ready. (My initial reservation price is $9895, my hardware coefficient is 0.991, and my initial task costliness estimate is 1.294).
+Bidder7@192.168.1.5:1099/JADE: I am ready. (My initial reservation price is $6005, my hardware coefficient is 0.579, and my initial task costliness estimate is 1.344).
+Bidder20@192.168.1.5:1099/JADE: I am ready. (My initial reservation price is $15255, my hardware coefficient is 1.529, and my initial task costliness estimate is 1.293).
+Bidder6@192.168.1.5:1099/JADE: I am ready. (My initial reservation price is $16430, my hardware coefficient is 1.489, and my initial task costliness estimate is 1.43).
+Bidder10@192.168.1.5:1099/JADE: I am ready. (My initial reservation price is $14892, my hardware coefficient is 1.471, and my initial task costliness estimate is 1.312).
+MaliciousAgentCollaborative12@192.168.1.5:1099/JADE: I am ready. (My hardware coefficient is 1.409, and my initial task costliness estimate is 1.242).
+MaliciousAgentCollaborative25@192.168.1.5:1099/JADE: I am ready. (My hardware coefficient is 1.536, and my initial task costliness estimate is 1.361).
+MaliciousAgentCollaborative9@192.168.1.5:1099/JADE: I am ready. (My hardware coefficient is 1.369, and my initial task costliness estimate is 1.274).
+MaliciousAgentCollaborative1@192.168.1.5:1099/JADE: I am ready. (My hardware coefficient is 1.346, and my initial task costliness estimate is 1.354).
+MaliciousAgentCollaborative6@192.168.1.5:1099/JADE: I am ready. (My hardware coefficient is 1.336, and my initial task costliness estimate is 1.277).
+MaliciousAgentCollaborative21@192.168.1.5:1099/JADE: I am ready. (My hardware coefficient is 1.343, and my initial task costliness estimate is 1.32).
+MaliciousAgentCollaborative18@192.168.1.5:1099/JADE: I am ready. (My hardware coefficient is 0.861, and my initial task costliness estimate is 1.273).
+MaliciousAgentCollaborative13@192.168.1.5:1099/JADE: I am ready. (My hardware coefficient is 1.057, and my initial task costliness estimate is 1.292).
+Bidder19@192.168.1.5:1099/JADE: I bid $15736
+MaliciousAgentCollaborative7@192.168.1.5:1099/JADE: I am ready. (My hardware coefficient is 1.440, and my initial task costliness estimate is 1.365).
+Bidder23@192.168.1.5:1099/JADE: I bid $15736
+MaliciousAgentCollaborative20@192.168.1.5:1099/JADE: I am ready. (My hardware coefficient is 0.620, and my initial task costliness estimate is 1.304).
+MaliciousAgentCollaborative3@192.168.1.5:1099/JADE: I am ready. (My hardware coefficient is 1.330, and my initial task costliness estimate is 1.29).
+Bidder9@192.168.1.5:1099/JADE: I bid $15736
+MaliciousAgentCollaborative16@192.168.1.5:1099/JADE: I am ready. (My hardware coefficient is 1.215, and my initial task costliness estimate is 1.339).
+MaliciousAgentCollaborative15@192.168.1.5:1099/JADE: I am ready. (My hardware coefficient is 0.509, and my initial task costliness estimate is 1.351).
+MaliciousAgentCollaborative2@192.168.1.5:1099/JADE: I am ready. (My hardware coefficient is 1.514, and my initial task costliness estimate is 1.327).
+MaliciousAgentCollaborative22@192.168.1.5:1099/JADE: I am ready. (My hardware coefficient is 0.780, and my initial task costliness estimate is 1.26).
+MaliciousAgentCollaborative14@192.168.1.5:1099/JADE: I am ready. (My hardware coefficient is 0.846, and my initial task costliness estimate is 1.286).
+MaliciousAgentCollaborative4@192.168.1.5:1099/JADE: I am ready. (My hardware coefficient is 0.738, and my initial task costliness estimate is 1.299).
+MaliciousAgentCollaborative11@192.168.1.5:1099/JADE: I am ready. (My hardware coefficient is 0.670, and my initial task costliness estimate is 1.288).
+Bidder11@192.168.1.5:1099/JADE: I bid $15736
+MaliciousAgentCollaborative24@192.168.1.5:1099/JADE: I am ready. (My hardware coefficient is 0.615, and my initial task costliness estimate is 1.327).
+MaliciousAgentCollaborative23@192.168.1.5:1099/JADE: I am ready. (My hardware coefficient is 1.056, and my initial task costliness estimate is 1.313).
+MaliciousAgentCollaborative19@192.168.1.5:1099/JADE: I am ready. (My hardware coefficient is 0.953, and my initial task costliness estimate is 1.254).
+MaliciousAgentCollaborative8@192.168.1.5:1099/JADE: I am ready. (My hardware coefficient is 1.538, and my initial task costliness estimate is 1.226).
+MaliciousAgentCollaborative5@192.168.1.5:1099/JADE: I am ready. (My hardware coefficient is 1.293, and my initial task costliness estimate is 1.264).
+MaliciousAgentCollaborative17@192.168.1.5:1099/JADE: I am ready. (My hardware coefficient is 0.996, and my initial task costliness estimate is 1.385).
+Bidder24@192.168.1.5:1099/JADE: I bid $15736
+Bidder18@192.168.1.5:1099/JADE: I bid $15736
+Bidder8@192.168.1.5:1099/JADE: I bid $15736
+Bidder12@192.168.1.5:1099/JADE: I bid $15736
+MaliciousAgentCollaborative15@192.168.1.5:1099/JADE: I will be bidding for the ring. The ring estimates the task costliness to be: 1.304 and beta = 0.01. My hardware coefficient is: 0.509.
+Bidder17@192.168.1.5:1099/JADE: I bid $15736
+Bidder13@192.168.1.5:1099/JADE: I don't want to bid the current ask price
+Bidder21@192.168.1.5:1099/JADE: I bid $15736
+Bidder2@192.168.1.5:1099/JADE: I bid $15736
+Bidder16@192.168.1.5:1099/JADE: I bid $15736
+Bidder22@192.168.1.5:1099/JADE: I bid $15736
+Bidder14@192.168.1.5:1099/JADE: I bid $15736
+Bidder1@192.168.1.5:1099/JADE: I bid $15736
+Bidder15@192.168.1.5:1099/JADE: I bid $15736
+Bidder5@192.168.1.5:1099/JADE: I bid $15736
+Bidder3@192.168.1.5:1099/JADE: I bid $15736
+Bidder4@192.168.1.5:1099/JADE: I bid $15736
+Bidder25@192.168.1.5:1099/JADE: I bid $15736
+Bidder7@192.168.1.5:1099/JADE: I bid $15736
+Bidder20@192.168.1.5:1099/JADE: I don't want to bid the current ask price
+Bidder6@192.168.1.5:1099/JADE: I don't want to bid the current ask price
+Bidder10@192.168.1.5:1099/JADE: I bid $15736
+MaliciousAgentCollaborative22@192.168.1.5:1099/JADE: I don't want to bid the current ask price
+MaliciousAgentCollaborative23@192.168.1.5:1099/JADE: I don't want to bid the current ask price
+MaliciousAgentCollaborative24@192.168.1.5:1099/JADE: I don't want to bid the current ask price
+MaliciousAgentCollaborative15@192.168.1.5:1099/JADE: I bid $15736
+MaliciousAgentCollaborative4@192.168.1.5:1099/JADE: I don't want to bid the current ask price
+MaliciousAgentCollaborative5@192.168.1.5:1099/JADE: I don't want to bid the current ask price
+MaliciousAgentCollaborative21@192.168.1.5:1099/JADE: I don't want to bid the current ask price
+MaliciousAgentCollaborative1@192.168.1.5:1099/JADE: I don't want to bid the current ask price
+MaliciousAgentCollaborative7@192.168.1.5:1099/JADE: I don't want to bid the current ask price
+MaliciousAgentCollaborative13@192.168.1.5:1099/JADE: I don't want to bid the current ask price
+MaliciousAgentCollaborative16@192.168.1.5:1099/JADE: I don't want to bid the current ask price
+MaliciousAgentCollaborative25@192.168.1.5:1099/JADE: I don't want to bid the current ask price
+MaliciousAgentCollaborative10@192.168.1.5:1099/JADE: I don't want to bid the current ask price
+MaliciousAgentCollaborative17@192.168.1.5:1099/JADE: I don't want to bid the current ask price
+MaliciousAgentCollaborative8@192.168.1.5:1099/JADE: I don't want to bid the current ask price
+MaliciousAgentCollaborative19@192.168.1.5:1099/JADE: I don't want to bid the current ask price
+MaliciousAgentCollaborative3@192.168.1.5:1099/JADE: I don't want to bid the current ask price
+MaliciousAgentCollaborative9@192.168.1.5:1099/JADE: I don't want to bid the current ask price
+MaliciousAgentCollaborative20@192.168.1.5:1099/JADE: I don't want to bid the current ask price
+MaliciousAgentCollaborative11@192.168.1.5:1099/JADE: I don't want to bid the current ask price
+MaliciousAgentCollaborative6@192.168.1.5:1099/JADE: I don't want to bid the current ask price
+MaliciousAgentCollaborative18@192.168.1.5:1099/JADE: I don't want to bid the current ask price
+MaliciousAgentCollaborative12@192.168.1.5:1099/JADE: I don't want to bid the current ask price
+MaliciousAgentCollaborative2@192.168.1.5:1099/JADE: I don't want to bid the current ask price
+MaliciousAgentCollaborative14@192.168.1.5:1099/JADE: I don't want to bid the current ask price
+Auctioneer: Lowest bid so far: $15736 for agents Bidder19@192.168.1.5:1099/JADE, Bidder23@192.168.1.5:1099/JADE, Bidder9@192.168.1.5:1099/JADE, Bidder11@192.168.1.5:1099/JADE, Bidder24@192.168.1.5:1099/JADE, Bidder18@192.168.1.5:1099/JADE, Bidder12@192.168.1.5:1099/JADE, Bidder8@192.168.1.5:1099/JADE, Bidder17@192.168.1.5:1099/JADE, Bidder21@192.168.1.5:1099/JADE, Bidder2@192.168.1.5:1099/JADE, Bidder16@192.168.1.5:1099/JADE, Bidder22@192.168.1.5:1099/JADE, Bidder14@192.168.1.5:1099/JADE, Bidder1@192.168.1.5:1099/JADE, Bidder15@192.168.1.5:1099/JADE, Bidder4@192.168.1.5:1099/JADE, Bidder5@192.168.1.5:1099/JADE, Bidder3@192.168.1.5:1099/JADE, Bidder25@192.168.1.5:1099/JADE, Bidder7@192.168.1.5:1099/JADE, MaliciousAgentCollaborative15@192.168.1.5:1099/JADE, Bidder10@192.168.1.5:1099/JADE.
+Auctioneer: Round Nr.2 - Do I hear $15421?
+Bidder23@192.168.1.5:1099/JADE: I bid $15421
+Bidder19@192.168.1.5:1099/JADE: I bid $15421
+Bidder24@192.168.1.5:1099/JADE: I bid $15421
+Bidder8@192.168.1.5:1099/JADE: I bid $15421
+Bidder11@192.168.1.5:1099/JADE: I bid $15421
+Bidder9@192.168.1.5:1099/JADE: I bid $15421
+Bidder18@192.168.1.5:1099/JADE: I bid $15421
+Bidder17@192.168.1.5:1099/JADE: I bid $15421
+Bidder12@192.168.1.5:1099/JADE: I bid $15421
+Bidder2@192.168.1.5:1099/JADE: I bid $15421
+Bidder14@192.168.1.5:1099/JADE: I bid $15421
+Bidder16@192.168.1.5:1099/JADE: I bid $15421
+Bidder22@192.168.1.5:1099/JADE: I bid $15421
+Bidder4@192.168.1.5:1099/JADE: I bid $15421
+Bidder5@192.168.1.5:1099/JADE: I bid $15421
+Bidder1@192.168.1.5:1099/JADE: I bid $15421
+Bidder21@192.168.1.5:1099/JADE: I bid $15421
+Bidder15@192.168.1.5:1099/JADE: I bid $15421
+Bidder25@192.168.1.5:1099/JADE: I bid $15421
+Bidder3@192.168.1.5:1099/JADE: I bid $15421
+Bidder7@192.168.1.5:1099/JADE: I bid $15421
+MaliciousAgentCollaborative15@192.168.1.5:1099/JADE: I bid $15421
+Bidder10@192.168.1.5:1099/JADE: I don't want to bid the current ask price
+Auctioneer: Lowest bid so far: $15421 for agents Bidder19@192.168.1.5:1099/JADE, Bidder23@192.168.1.5:1099/JADE, Bidder9@192.168.1.5:1099/JADE, Bidder11@192.168.1.5:1099/JADE, Bidder24@192.168.1.5:1099/JADE, Bidder18@192.168.1.5:1099/JADE, Bidder12@192.168.1.5:1099/JADE, Bidder8@192.168.1.5:1099/JADE, Bidder17@192.168.1.5:1099/JADE, Bidder21@192.168.1.5:1099/JADE, Bidder2@192.168.1.5:1099/JADE, Bidder16@192.168.1.5:1099/JADE, Bidder22@192.168.1.5:1099/JADE, Bidder14@192.168.1.5:1099/JADE, Bidder1@192.168.1.5:1099/JADE, Bidder15@192.168.1.5:1099/JADE, Bidder4@192.168.1.5:1099/JADE, Bidder5@192.168.1.5:1099/JADE, Bidder3@192.168.1.5:1099/JADE, Bidder25@192.168.1.5:1099/JADE, Bidder7@192.168.1.5:1099/JADE, MaliciousAgentCollaborative15@192.168.1.5:1099/JADE.
+Auctioneer: Round Nr.3 - Do I hear $15106?
+Bidder19@192.168.1.5:1099/JADE: I bid $15106
+Bidder9@192.168.1.5:1099/JADE: I bid $15106
+Bidder8@192.168.1.5:1099/JADE: I bid $15106
+Bidder23@192.168.1.5:1099/JADE: I bid $15106
+Bidder21@192.168.1.5:1099/JADE: I bid $15106
+Bidder2@192.168.1.5:1099/JADE: I bid $15106
+Bidder17@192.168.1.5:1099/JADE: I bid $15106
+Bidder22@192.168.1.5:1099/JADE: I bid $15106
+Bidder18@192.168.1.5:1099/JADE: I bid $15106
+Bidder1@192.168.1.5:1099/JADE: I bid $15106
+Bidder24@192.168.1.5:1099/JADE: I bid $15106
+Bidder11@192.168.1.5:1099/JADE: I bid $15106
+Bidder12@192.168.1.5:1099/JADE: I bid $15106
+Bidder14@192.168.1.5:1099/JADE: I bid $15106
+Bidder16@192.168.1.5:1099/JADE: I bid $15106
+Bidder15@192.168.1.5:1099/JADE: I bid $15106
+Bidder5@192.168.1.5:1099/JADE: I bid $15106
+Bidder3@192.168.1.5:1099/JADE: I bid $15106
+Bidder4@192.168.1.5:1099/JADE: I bid $15106
+Bidder25@192.168.1.5:1099/JADE: I bid $15106
+Bidder7@192.168.1.5:1099/JADE: I bid $15106
+MaliciousAgentCollaborative15@192.168.1.5:1099/JADE: I bid $15106
+Auctioneer: Lowest bid so far: $15106 for agents Bidder19@192.168.1.5:1099/JADE, Bidder23@192.168.1.5:1099/JADE, Bidder9@192.168.1.5:1099/JADE, Bidder11@192.168.1.5:1099/JADE, Bidder24@192.168.1.5:1099/JADE, Bidder18@192.168.1.5:1099/JADE, Bidder12@192.168.1.5:1099/JADE, Bidder8@192.168.1.5:1099/JADE, Bidder17@192.168.1.5:1099/JADE, Bidder21@192.168.1.5:1099/JADE, Bidder2@192.168.1.5:1099/JADE, Bidder16@192.168.1.5:1099/JADE, Bidder22@192.168.1.5:1099/JADE, Bidder14@192.168.1.5:1099/JADE, Bidder1@192.168.1.5:1099/JADE, Bidder15@192.168.1.5:1099/JADE, Bidder4@192.168.1.5:1099/JADE, Bidder5@192.168.1.5:1099/JADE, Bidder3@192.168.1.5:1099/JADE, Bidder25@192.168.1.5:1099/JADE, Bidder7@192.168.1.5:1099/JADE, MaliciousAgentCollaborative15@192.168.1.5:1099/JADE.
+Auctioneer: Round Nr.4 - Do I hear $14791?
+Bidder23@192.168.1.5:1099/JADE: I bid $14791
+Bidder24@192.168.1.5:1099/JADE: I bid $14791
+Bidder12@192.168.1.5:1099/JADE: I bid $14791
+Bidder11@192.168.1.5:1099/JADE: I bid $14791
+Bidder17@192.168.1.5:1099/JADE: I bid $14791
+Bidder8@192.168.1.5:1099/JADE: I bid $14791
+Bidder21@192.168.1.5:1099/JADE: I bid $14791
+Bidder2@192.168.1.5:1099/JADE: I bid $14791
+Bidder15@192.168.1.5:1099/JADE: I bid $14791
+Bidder4@192.168.1.5:1099/JADE: I bid $14791
+Bidder25@192.168.1.5:1099/JADE: I bid $14791
+Bidder7@192.168.1.5:1099/JADE: I bid $14791
+Bidder19@192.168.1.5:1099/JADE: I bid $14791
+Bidder3@192.168.1.5:1099/JADE: I bid $14791
+Bidder16@192.168.1.5:1099/JADE: I bid $14791
+MaliciousAgentCollaborative15@192.168.1.5:1099/JADE: I bid $14791
+Bidder5@192.168.1.5:1099/JADE: I bid $14791
+Bidder14@192.168.1.5:1099/JADE: I bid $14791
+Bidder22@192.168.1.5:1099/JADE: I bid $14791
+Bidder18@192.168.1.5:1099/JADE: I bid $14791
+Bidder1@192.168.1.5:1099/JADE: I bid $14791
+Bidder9@192.168.1.5:1099/JADE: I bid $14791
+Auctioneer: Lowest bid so far: $14791 for agents Bidder19@192.168.1.5:1099/JADE, Bidder23@192.168.1.5:1099/JADE, Bidder9@192.168.1.5:1099/JADE, Bidder11@192.168.1.5:1099/JADE, Bidder24@192.168.1.5:1099/JADE, Bidder18@192.168.1.5:1099/JADE, Bidder12@192.168.1.5:1099/JADE, Bidder8@192.168.1.5:1099/JADE, Bidder17@192.168.1.5:1099/JADE, Bidder21@192.168.1.5:1099/JADE, Bidder2@192.168.1.5:1099/JADE, Bidder16@192.168.1.5:1099/JADE, Bidder22@192.168.1.5:1099/JADE, Bidder14@192.168.1.5:1099/JADE, Bidder1@192.168.1.5:1099/JADE, Bidder15@192.168.1.5:1099/JADE, Bidder4@192.168.1.5:1099/JADE, Bidder5@192.168.1.5:1099/JADE, Bidder3@192.168.1.5:1099/JADE, Bidder25@192.168.1.5:1099/JADE, Bidder7@192.168.1.5:1099/JADE, MaliciousAgentCollaborative15@192.168.1.5:1099/JADE.
+Auctioneer: Round Nr.5 - Do I hear $14476?
+Bidder19@192.168.1.5:1099/JADE: I bid $14476
+Bidder12@192.168.1.5:1099/JADE: I bid $14476
+Bidder11@192.168.1.5:1099/JADE: I bid $14476
+Bidder23@192.168.1.5:1099/JADE: I bid $14476
+Bidder21@192.168.1.5:1099/JADE: I bid $14476
+Bidder17@192.168.1.5:1099/JADE: I bid $14476
+Bidder2@192.168.1.5:1099/JADE: I bid $14476
+Bidder22@192.168.1.5:1099/JADE: I bid $14476
+Bidder18@192.168.1.5:1099/JADE: I bid $14476
+Bidder8@192.168.1.5:1099/JADE: I bid $14476
+Bidder15@192.168.1.5:1099/JADE: I bid $14476
+Bidder24@192.168.1.5:1099/JADE: I bid $14476
+Bidder9@192.168.1.5:1099/JADE: I bid $14476
+Bidder14@192.168.1.5:1099/JADE: I bid $14476
+Bidder16@192.168.1.5:1099/JADE: I bid $14476
+Bidder1@192.168.1.5:1099/JADE: I bid $14476
+Bidder5@192.168.1.5:1099/JADE: I bid $14476
+Bidder4@192.168.1.5:1099/JADE: I bid $14476
+Bidder3@192.168.1.5:1099/JADE: I bid $14476
+Bidder25@192.168.1.5:1099/JADE: I bid $14476
+Bidder7@192.168.1.5:1099/JADE: I bid $14476
+MaliciousAgentCollaborative15@192.168.1.5:1099/JADE: I bid $14476
+Auctioneer: Lowest bid so far: $14476 for agents Bidder19@192.168.1.5:1099/JADE, Bidder23@192.168.1.5:1099/JADE, Bidder9@192.168.1.5:1099/JADE, Bidder11@192.168.1.5:1099/JADE, Bidder24@192.168.1.5:1099/JADE, Bidder18@192.168.1.5:1099/JADE, Bidder12@192.168.1.5:1099/JADE, Bidder8@192.168.1.5:1099/JADE, Bidder17@192.168.1.5:1099/JADE, Bidder21@192.168.1.5:1099/JADE, Bidder2@192.168.1.5:1099/JADE, Bidder16@192.168.1.5:1099/JADE, Bidder22@192.168.1.5:1099/JADE, Bidder14@192.168.1.5:1099/JADE, Bidder1@192.168.1.5:1099/JADE, Bidder15@192.168.1.5:1099/JADE, Bidder4@192.168.1.5:1099/JADE, Bidder5@192.168.1.5:1099/JADE, Bidder3@192.168.1.5:1099/JADE, Bidder25@192.168.1.5:1099/JADE, Bidder7@192.168.1.5:1099/JADE, MaliciousAgentCollaborative15@192.168.1.5:1099/JADE.
+Auctioneer: Round Nr.6 - Do I hear $14161?
+Bidder11@192.168.1.5:1099/JADE: I bid $14161
+Bidder23@192.168.1.5:1099/JADE: I bid $14161
+Bidder19@192.168.1.5:1099/JADE: I bid $14161
+Bidder12@192.168.1.5:1099/JADE: I bid $14161
+Bidder17@192.168.1.5:1099/JADE: I bid $14161
+Bidder24@192.168.1.5:1099/JADE: I bid $14161
+Bidder16@192.168.1.5:1099/JADE: I bid $14161
+Bidder22@192.168.1.5:1099/JADE: I bid $14161
+Bidder9@192.168.1.5:1099/JADE: I bid $14161
+Bidder14@192.168.1.5:1099/JADE: I bid $14161
+Bidder5@192.168.1.5:1099/JADE: I bid $14161
+Bidder3@192.168.1.5:1099/JADE: I bid $14161
+Bidder2@192.168.1.5:1099/JADE: I bid $14161
+MaliciousAgentCollaborative15@192.168.1.5:1099/JADE: I bid $14161
+Bidder21@192.168.1.5:1099/JADE: I bid $14161
+Bidder8@192.168.1.5:1099/JADE: I bid $14161
+Bidder15@192.168.1.5:1099/JADE: I bid $14161
+Bidder1@192.168.1.5:1099/JADE: I bid $14161
+Bidder4@192.168.1.5:1099/JADE: I bid $14161
+Bidder7@192.168.1.5:1099/JADE: I bid $14161
+Bidder25@192.168.1.5:1099/JADE: I bid $14161
+Bidder18@192.168.1.5:1099/JADE: I bid $14161
+Auctioneer: Lowest bid so far: $14161 for agents Bidder19@192.168.1.5:1099/JADE, Bidder23@192.168.1.5:1099/JADE, Bidder9@192.168.1.5:1099/JADE, Bidder11@192.168.1.5:1099/JADE, Bidder24@192.168.1.5:1099/JADE, Bidder18@192.168.1.5:1099/JADE, Bidder12@192.168.1.5:1099/JADE, Bidder8@192.168.1.5:1099/JADE, Bidder17@192.168.1.5:1099/JADE, Bidder21@192.168.1.5:1099/JADE, Bidder2@192.168.1.5:1099/JADE, Bidder16@192.168.1.5:1099/JADE, Bidder22@192.168.1.5:1099/JADE, Bidder14@192.168.1.5:1099/JADE, Bidder1@192.168.1.5:1099/JADE, Bidder15@192.168.1.5:1099/JADE, Bidder4@192.168.1.5:1099/JADE, Bidder5@192.168.1.5:1099/JADE, Bidder3@192.168.1.5:1099/JADE, Bidder25@192.168.1.5:1099/JADE, Bidder7@192.168.1.5:1099/JADE, MaliciousAgentCollaborative15@192.168.1.5:1099/JADE.
+Auctioneer: Round Nr.7 - Do I hear $13846?
+Bidder12@192.168.1.5:1099/JADE: I bid $13846
+Bidder11@192.168.1.5:1099/JADE: I bid $13846
+Bidder8@192.168.1.5:1099/JADE: I bid $13846
+Bidder17@192.168.1.5:1099/JADE: I bid $13846
+Bidder19@192.168.1.5:1099/JADE: I bid $13846
+Bidder18@192.168.1.5:1099/JADE: I bid $13846
+Bidder2@192.168.1.5:1099/JADE: I bid $13846
+Bidder24@192.168.1.5:1099/JADE: I bid $13846
+Bidder16@192.168.1.5:1099/JADE: I bid $13846
+Bidder22@192.168.1.5:1099/JADE: I bid $13846
+Bidder23@192.168.1.5:1099/JADE: I bid $13846
+Bidder21@192.168.1.5:1099/JADE: I bid $13846
+Bidder9@192.168.1.5:1099/JADE: I bid $13846
+Bidder14@192.168.1.5:1099/JADE: I bid $13846
+Bidder1@192.168.1.5:1099/JADE: I bid $13846
+Bidder15@192.168.1.5:1099/JADE: I don't want to bid the current ask price
+Bidder4@192.168.1.5:1099/JADE: I bid $13846
+Bidder5@192.168.1.5:1099/JADE: I bid $13846
+Bidder3@192.168.1.5:1099/JADE: I bid $13846
+Bidder25@192.168.1.5:1099/JADE: I bid $13846
+Bidder7@192.168.1.5:1099/JADE: I bid $13846
+MaliciousAgentCollaborative15@192.168.1.5:1099/JADE: I bid $13846
+Auctioneer: Lowest bid so far: $13846 for agents Bidder19@192.168.1.5:1099/JADE, Bidder23@192.168.1.5:1099/JADE, Bidder9@192.168.1.5:1099/JADE, Bidder11@192.168.1.5:1099/JADE, Bidder24@192.168.1.5:1099/JADE, Bidder18@192.168.1.5:1099/JADE, Bidder12@192.168.1.5:1099/JADE, Bidder8@192.168.1.5:1099/JADE, Bidder17@192.168.1.5:1099/JADE, Bidder21@192.168.1.5:1099/JADE, Bidder2@192.168.1.5:1099/JADE, Bidder16@192.168.1.5:1099/JADE, Bidder22@192.168.1.5:1099/JADE, Bidder14@192.168.1.5:1099/JADE, Bidder1@192.168.1.5:1099/JADE, Bidder4@192.168.1.5:1099/JADE, Bidder5@192.168.1.5:1099/JADE, Bidder3@192.168.1.5:1099/JADE, Bidder25@192.168.1.5:1099/JADE, Bidder7@192.168.1.5:1099/JADE, MaliciousAgentCollaborative15@192.168.1.5:1099/JADE.
+Auctioneer: Round Nr.8 - Do I hear $13531?
+Bidder19@192.168.1.5:1099/JADE: I bid $13531
+Bidder23@192.168.1.5:1099/JADE: I bid $13531
+Bidder12@192.168.1.5:1099/JADE: I bid $13531
+Bidder21@192.168.1.5:1099/JADE: I bid $13531
+Bidder8@192.168.1.5:1099/JADE: I bid $13531
+Bidder17@192.168.1.5:1099/JADE: I bid $13531
+Bidder16@192.168.1.5:1099/JADE: I bid $13531
+Bidder24@192.168.1.5:1099/JADE: I bid $13531
+Bidder14@192.168.1.5:1099/JADE: I bid $13531
+Bidder1@192.168.1.5:1099/JADE: I bid $13531
+Bidder5@192.168.1.5:1099/JADE: I bid $13531
+Bidder9@192.168.1.5:1099/JADE: I bid $13531
+Bidder11@192.168.1.5:1099/JADE: I bid $13531
+Bidder7@192.168.1.5:1099/JADE: I bid $13531
+Bidder4@192.168.1.5:1099/JADE: I bid $13531
+MaliciousAgentCollaborative15@192.168.1.5:1099/JADE: I bid $13531
+Bidder2@192.168.1.5:1099/JADE: I bid $13531
+Bidder22@192.168.1.5:1099/JADE: I bid $13531
+Bidder18@192.168.1.5:1099/JADE: I bid $13531
+Bidder3@192.168.1.5:1099/JADE: I bid $13531
+Bidder25@192.168.1.5:1099/JADE: I bid $13531
+Auctioneer: Lowest bid so far: $13531 for agents Bidder19@192.168.1.5:1099/JADE, Bidder23@192.168.1.5:1099/JADE, Bidder9@192.168.1.5:1099/JADE, Bidder11@192.168.1.5:1099/JADE, Bidder24@192.168.1.5:1099/JADE, Bidder18@192.168.1.5:1099/JADE, Bidder12@192.168.1.5:1099/JADE, Bidder8@192.168.1.5:1099/JADE, Bidder17@192.168.1.5:1099/JADE, Bidder21@192.168.1.5:1099/JADE, Bidder2@192.168.1.5:1099/JADE, Bidder16@192.168.1.5:1099/JADE, Bidder22@192.168.1.5:1099/JADE, Bidder14@192.168.1.5:1099/JADE, Bidder1@192.168.1.5:1099/JADE, Bidder4@192.168.1.5:1099/JADE, Bidder5@192.168.1.5:1099/JADE, Bidder3@192.168.1.5:1099/JADE, Bidder25@192.168.1.5:1099/JADE, Bidder7@192.168.1.5:1099/JADE, MaliciousAgentCollaborative15@192.168.1.5:1099/JADE.
+Auctioneer: Round Nr.9 - Do I hear $13216?
+Bidder19@192.168.1.5:1099/JADE: I bid $13216
+Bidder23@192.168.1.5:1099/JADE: I bid $13216
+Bidder24@192.168.1.5:1099/JADE: I bid $13216
+Bidder17@192.168.1.5:1099/JADE: I bid $13216
+Bidder12@192.168.1.5:1099/JADE: I bid $13216
+Bidder18@192.168.1.5:1099/JADE: I bid $13216
+Bidder2@192.168.1.5:1099/JADE: I bid $13216
+Bidder9@192.168.1.5:1099/JADE: I bid $13216
+Bidder11@192.168.1.5:1099/JADE: I bid $13216
+Bidder16@192.168.1.5:1099/JADE: I bid $13216
+Bidder22@192.168.1.5:1099/JADE: I bid $13216
+Bidder14@192.168.1.5:1099/JADE: I bid $13216
+Bidder4@192.168.1.5:1099/JADE: I bid $13216
+Bidder8@192.168.1.5:1099/JADE: I bid $13216
+Bidder7@192.168.1.5:1099/JADE: I bid $13216
+Bidder3@192.168.1.5:1099/JADE: I bid $13216
+Bidder21@192.168.1.5:1099/JADE: I bid $13216
+Bidder25@192.168.1.5:1099/JADE: I bid $13216
+Bidder5@192.168.1.5:1099/JADE: I bid $13216
+MaliciousAgentCollaborative15@192.168.1.5:1099/JADE: I bid $13216
+Bidder1@192.168.1.5:1099/JADE: I bid $13216
+Auctioneer: Lowest bid so far: $13216 for agents Bidder19@192.168.1.5:1099/JADE, Bidder23@192.168.1.5:1099/JADE, Bidder9@192.168.1.5:1099/JADE, Bidder11@192.168.1.5:1099/JADE, Bidder24@192.168.1.5:1099/JADE, Bidder18@192.168.1.5:1099/JADE, Bidder12@192.168.1.5:1099/JADE, Bidder8@192.168.1.5:1099/JADE, Bidder17@192.168.1.5:1099/JADE, Bidder21@192.168.1.5:1099/JADE, Bidder2@192.168.1.5:1099/JADE, Bidder16@192.168.1.5:1099/JADE, Bidder22@192.168.1.5:1099/JADE, Bidder14@192.168.1.5:1099/JADE, Bidder1@192.168.1.5:1099/JADE, Bidder4@192.168.1.5:1099/JADE, Bidder5@192.168.1.5:1099/JADE, Bidder3@192.168.1.5:1099/JADE, Bidder25@192.168.1.5:1099/JADE, Bidder7@192.168.1.5:1099/JADE, MaliciousAgentCollaborative15@192.168.1.5:1099/JADE.
+Auctioneer: Round Nr.10 - Do I hear $12901?
+Bidder19@192.168.1.5:1099/JADE: I bid $12901
+Bidder23@192.168.1.5:1099/JADE: I bid $12901
+Bidder9@192.168.1.5:1099/JADE: I bid $12901
+Bidder11@192.168.1.5:1099/JADE: I bid $12901
+Bidder24@192.168.1.5:1099/JADE: I bid $12901
+Bidder18@192.168.1.5:1099/JADE: I bid $12901
+Bidder12@192.168.1.5:1099/JADE: I bid $12901
+Bidder16@192.168.1.5:1099/JADE: I bid $12901
+Bidder17@192.168.1.5:1099/JADE: I bid $12901
+Bidder21@192.168.1.5:1099/JADE: I bid $12901
+Bidder2@192.168.1.5:1099/JADE: I bid $12901
+Bidder4@192.168.1.5:1099/JADE: I bid $12901
+Bidder14@192.168.1.5:1099/JADE: I bid $12901
+Bidder22@192.168.1.5:1099/JADE: I bid $12901
+Bidder8@192.168.1.5:1099/JADE: I bid $12901
+Bidder1@192.168.1.5:1099/JADE: I bid $12901
+Bidder5@192.168.1.5:1099/JADE: I bid $12901
+Bidder3@192.168.1.5:1099/JADE: I bid $12901
+Bidder25@192.168.1.5:1099/JADE: I bid $12901
+Bidder7@192.168.1.5:1099/JADE: I bid $12901
+MaliciousAgentCollaborative15@192.168.1.5:1099/JADE: I bid $12901
+Auctioneer: Lowest bid so far: $12901 for agents Bidder19@192.168.1.5:1099/JADE, Bidder23@192.168.1.5:1099/JADE, Bidder9@192.168.1.5:1099/JADE, Bidder11@192.168.1.5:1099/JADE, Bidder24@192.168.1.5:1099/JADE, Bidder18@192.168.1.5:1099/JADE, Bidder12@192.168.1.5:1099/JADE, Bidder8@192.168.1.5:1099/JADE, Bidder17@192.168.1.5:1099/JADE, Bidder21@192.168.1.5:1099/JADE, Bidder2@192.168.1.5:1099/JADE, Bidder16@192.168.1.5:1099/JADE, Bidder22@192.168.1.5:1099/JADE, Bidder14@192.168.1.5:1099/JADE, Bidder1@192.168.1.5:1099/JADE, Bidder4@192.168.1.5:1099/JADE, Bidder5@192.168.1.5:1099/JADE, Bidder3@192.168.1.5:1099/JADE, Bidder25@192.168.1.5:1099/JADE, Bidder7@192.168.1.5:1099/JADE, MaliciousAgentCollaborative15@192.168.1.5:1099/JADE.
+Auctioneer: Round Nr.11 - Do I hear $12586?
+Bidder19@192.168.1.5:1099/JADE: I bid $12586
+Bidder23@192.168.1.5:1099/JADE: I bid $12586
+Bidder9@192.168.1.5:1099/JADE: I bid $12586
+Bidder11@192.168.1.5:1099/JADE: I bid $12586
+Bidder18@192.168.1.5:1099/JADE: I bid $12586
+Bidder8@192.168.1.5:1099/JADE: I bid $12586
+Bidder24@192.168.1.5:1099/JADE: I bid $12586
+Bidder12@192.168.1.5:1099/JADE: I bid $12586
+Bidder17@192.168.1.5:1099/JADE: I bid $12586
+Bidder16@192.168.1.5:1099/JADE: I bid $12586
+Bidder2@192.168.1.5:1099/JADE: I bid $12586
+Bidder22@192.168.1.5:1099/JADE: I bid $12586
+Bidder21@192.168.1.5:1099/JADE: I bid $12586
+Bidder14@192.168.1.5:1099/JADE: I bid $12586
+Bidder1@192.168.1.5:1099/JADE: I bid $12586
+Bidder5@192.168.1.5:1099/JADE: I bid $12586
+Bidder25@192.168.1.5:1099/JADE: I bid $12586
+MaliciousAgentCollaborative15@192.168.1.5:1099/JADE: I bid $12586
+Bidder7@192.168.1.5:1099/JADE: I bid $12586
+Bidder3@192.168.1.5:1099/JADE: I don't want to bid the current ask price
+Bidder4@192.168.1.5:1099/JADE: I bid $12586
+Auctioneer: Lowest bid so far: $12586 for agents Bidder19@192.168.1.5:1099/JADE, Bidder23@192.168.1.5:1099/JADE, Bidder9@192.168.1.5:1099/JADE, Bidder11@192.168.1.5:1099/JADE, Bidder24@192.168.1.5:1099/JADE, Bidder18@192.168.1.5:1099/JADE, Bidder12@192.168.1.5:1099/JADE, Bidder8@192.168.1.5:1099/JADE, Bidder17@192.168.1.5:1099/JADE, Bidder21@192.168.1.5:1099/JADE, Bidder2@192.168.1.5:1099/JADE, Bidder16@192.168.1.5:1099/JADE, Bidder22@192.168.1.5:1099/JADE, Bidder14@192.168.1.5:1099/JADE, Bidder1@192.168.1.5:1099/JADE, Bidder4@192.168.1.5:1099/JADE, Bidder5@192.168.1.5:1099/JADE, Bidder25@192.168.1.5:1099/JADE, Bidder7@192.168.1.5:1099/JADE, MaliciousAgentCollaborative15@192.168.1.5:1099/JADE.
+Auctioneer: Round Nr.12 - Do I hear $12271?
+Bidder19@192.168.1.5:1099/JADE: I bid $12271
+Bidder17@192.168.1.5:1099/JADE: I bid $12271
+Bidder16@192.168.1.5:1099/JADE: I bid $12271
+Bidder18@192.168.1.5:1099/JADE: I bid $12271
+Bidder2@192.168.1.5:1099/JADE: I bid $12271
+Bidder23@192.168.1.5:1099/JADE: I bid $12271
+Bidder24@192.168.1.5:1099/JADE: I bid $12271
+Bidder8@192.168.1.5:1099/JADE: I bid $12271
+Bidder21@192.168.1.5:1099/JADE: I bid $12271
+Bidder11@192.168.1.5:1099/JADE: I bid $12271
+Bidder9@192.168.1.5:1099/JADE: I bid $12271
+Bidder1@192.168.1.5:1099/JADE: I bid $12271
+Bidder4@192.168.1.5:1099/JADE: I bid $12271
+Bidder5@192.168.1.5:1099/JADE: I bid $12271
+Bidder25@192.168.1.5:1099/JADE: I bid $12271
+Bidder7@192.168.1.5:1099/JADE: I bid $12271
+Bidder22@192.168.1.5:1099/JADE: I bid $12271
+Bidder14@192.168.1.5:1099/JADE: I bid $12271
+Bidder12@192.168.1.5:1099/JADE: I bid $12271
+MaliciousAgentCollaborative15@192.168.1.5:1099/JADE: I bid $12271
+Auctioneer: Lowest bid so far: $12271 for agents Bidder19@192.168.1.5:1099/JADE, Bidder23@192.168.1.5:1099/JADE, Bidder9@192.168.1.5:1099/JADE, Bidder11@192.168.1.5:1099/JADE, Bidder24@192.168.1.5:1099/JADE, Bidder18@192.168.1.5:1099/JADE, Bidder12@192.168.1.5:1099/JADE, Bidder8@192.168.1.5:1099/JADE, Bidder17@192.168.1.5:1099/JADE, Bidder21@192.168.1.5:1099/JADE, Bidder2@192.168.1.5:1099/JADE, Bidder16@192.168.1.5:1099/JADE, Bidder22@192.168.1.5:1099/JADE, Bidder14@192.168.1.5:1099/JADE, Bidder1@192.168.1.5:1099/JADE, Bidder4@192.168.1.5:1099/JADE, Bidder5@192.168.1.5:1099/JADE, Bidder25@192.168.1.5:1099/JADE, Bidder7@192.168.1.5:1099/JADE, MaliciousAgentCollaborative15@192.168.1.5:1099/JADE.
+Auctioneer: Round Nr.13 - Do I hear $11956?
+Bidder24@192.168.1.5:1099/JADE: I bid $11956
+Bidder18@192.168.1.5:1099/JADE: I bid $11956
+Bidder8@192.168.1.5:1099/JADE: I bid $11956
+Bidder16@192.168.1.5:1099/JADE: I bid $11956
+Bidder19@192.168.1.5:1099/JADE: I bid $11956
+Bidder2@192.168.1.5:1099/JADE: I bid $11956
+Bidder22@192.168.1.5:1099/JADE: I bid $11956
+Bidder14@192.168.1.5:1099/JADE: I bid $11956
+Bidder21@192.168.1.5:1099/JADE: I bid $11956
+Bidder17@192.168.1.5:1099/JADE: I bid $11956
+Bidder11@192.168.1.5:1099/JADE: I bid $11956
+Bidder12@192.168.1.5:1099/JADE: I bid $11956
+Bidder23@192.168.1.5:1099/JADE: I bid $11956
+Bidder1@192.168.1.5:1099/JADE: I bid $11956
+Bidder9@192.168.1.5:1099/JADE: I bid $11956
+Bidder4@192.168.1.5:1099/JADE: I bid $11956
+Bidder5@192.168.1.5:1099/JADE: I bid $11956
+Bidder25@192.168.1.5:1099/JADE: I bid $11956
+Bidder7@192.168.1.5:1099/JADE: I bid $11956
+MaliciousAgentCollaborative15@192.168.1.5:1099/JADE: I bid $11956
+Auctioneer: Lowest bid so far: $11956 for agents Bidder19@192.168.1.5:1099/JADE, Bidder23@192.168.1.5:1099/JADE, Bidder9@192.168.1.5:1099/JADE, Bidder11@192.168.1.5:1099/JADE, Bidder24@192.168.1.5:1099/JADE, Bidder18@192.168.1.5:1099/JADE, Bidder12@192.168.1.5:1099/JADE, Bidder8@192.168.1.5:1099/JADE, Bidder17@192.168.1.5:1099/JADE, Bidder21@192.168.1.5:1099/JADE, Bidder2@192.168.1.5:1099/JADE, Bidder16@192.168.1.5:1099/JADE, Bidder22@192.168.1.5:1099/JADE, Bidder14@192.168.1.5:1099/JADE, Bidder1@192.168.1.5:1099/JADE, Bidder4@192.168.1.5:1099/JADE, Bidder5@192.168.1.5:1099/JADE, Bidder25@192.168.1.5:1099/JADE, Bidder7@192.168.1.5:1099/JADE, MaliciousAgentCollaborative15@192.168.1.5:1099/JADE.
+Auctioneer: Round Nr.14 - Do I hear $11641?
+Bidder19@192.168.1.5:1099/JADE: I bid $11641
+Bidder11@192.168.1.5:1099/JADE: I bid $11641
+Bidder24@192.168.1.5:1099/JADE: I bid $11641
+Bidder12@192.168.1.5:1099/JADE: I bid $11641
+Bidder8@192.168.1.5:1099/JADE: I bid $11641
+Bidder18@192.168.1.5:1099/JADE: I bid $11641
+Bidder21@192.168.1.5:1099/JADE: I bid $11641
+Bidder17@192.168.1.5:1099/JADE: I bid $11641
+Bidder23@192.168.1.5:1099/JADE: I bid $11641
+Bidder9@192.168.1.5:1099/JADE: I bid $11641
+Bidder2@192.168.1.5:1099/JADE: I bid $11641
+Bidder16@192.168.1.5:1099/JADE: I bid $11641
+Bidder22@192.168.1.5:1099/JADE: I bid $11641
+Bidder14@192.168.1.5:1099/JADE: I bid $11641
+Bidder1@192.168.1.5:1099/JADE: I bid $11641
+Bidder5@192.168.1.5:1099/JADE: I bid $11641
+Bidder4@192.168.1.5:1099/JADE: I bid $11641
+Bidder7@192.168.1.5:1099/JADE: I bid $11641
+Bidder25@192.168.1.5:1099/JADE: I bid $11641
+MaliciousAgentCollaborative15@192.168.1.5:1099/JADE: I bid $11641
+Auctioneer: Lowest bid so far: $11641 for agents Bidder19@192.168.1.5:1099/JADE, Bidder23@192.168.1.5:1099/JADE, Bidder9@192.168.1.5:1099/JADE, Bidder11@192.168.1.5:1099/JADE, Bidder24@192.168.1.5:1099/JADE, Bidder18@192.168.1.5:1099/JADE, Bidder12@192.168.1.5:1099/JADE, Bidder8@192.168.1.5:1099/JADE, Bidder17@192.168.1.5:1099/JADE, Bidder21@192.168.1.5:1099/JADE, Bidder2@192.168.1.5:1099/JADE, Bidder16@192.168.1.5:1099/JADE, Bidder22@192.168.1.5:1099/JADE, Bidder14@192.168.1.5:1099/JADE, Bidder1@192.168.1.5:1099/JADE, Bidder4@192.168.1.5:1099/JADE, Bidder5@192.168.1.5:1099/JADE, Bidder25@192.168.1.5:1099/JADE, Bidder7@192.168.1.5:1099/JADE, MaliciousAgentCollaborative15@192.168.1.5:1099/JADE.
+Auctioneer: Round Nr.15 - Do I hear $11326?
+Bidder9@192.168.1.5:1099/JADE: I bid $11326
+Bidder24@192.168.1.5:1099/JADE: I bid $11326
+Bidder18@192.168.1.5:1099/JADE: I bid $11326
+Bidder12@192.168.1.5:1099/JADE: I bid $11326
+Bidder17@192.168.1.5:1099/JADE: I bid $11326
+Bidder19@192.168.1.5:1099/JADE: I bid $11326
+Bidder8@192.168.1.5:1099/JADE: I bid $11326
+Bidder2@192.168.1.5:1099/JADE: I bid $11326
+Bidder11@192.168.1.5:1099/JADE: I bid $11326
+Bidder23@192.168.1.5:1099/JADE: I bid $11326
+Bidder21@192.168.1.5:1099/JADE: I bid $11326
+Bidder16@192.168.1.5:1099/JADE: I bid $11326
+Bidder22@192.168.1.5:1099/JADE: I bid $11326
+Bidder1@192.168.1.5:1099/JADE: I bid $11326
+Bidder14@192.168.1.5:1099/JADE: I bid $11326
+Bidder4@192.168.1.5:1099/JADE: I bid $11326
+Bidder5@192.168.1.5:1099/JADE: I bid $11326
+Bidder25@192.168.1.5:1099/JADE: I bid $11326
+Bidder7@192.168.1.5:1099/JADE: I bid $11326
+MaliciousAgentCollaborative15@192.168.1.5:1099/JADE: I bid $11326
+Auctioneer: Lowest bid so far: $11326 for agents Bidder19@192.168.1.5:1099/JADE, Bidder23@192.168.1.5:1099/JADE, Bidder9@192.168.1.5:1099/JADE, Bidder11@192.168.1.5:1099/JADE, Bidder24@192.168.1.5:1099/JADE, Bidder18@192.168.1.5:1099/JADE, Bidder12@192.168.1.5:1099/JADE, Bidder8@192.168.1.5:1099/JADE, Bidder17@192.168.1.5:1099/JADE, Bidder21@192.168.1.5:1099/JADE, Bidder2@192.168.1.5:1099/JADE, Bidder16@192.168.1.5:1099/JADE, Bidder22@192.168.1.5:1099/JADE, Bidder14@192.168.1.5:1099/JADE, Bidder1@192.168.1.5:1099/JADE, Bidder4@192.168.1.5:1099/JADE, Bidder5@192.168.1.5:1099/JADE, Bidder25@192.168.1.5:1099/JADE, Bidder7@192.168.1.5:1099/JADE, MaliciousAgentCollaborative15@192.168.1.5:1099/JADE.
+Auctioneer: Round Nr.16 - Do I hear $11011?
+Bidder19@192.168.1.5:1099/JADE: I bid $11011
+Bidder23@192.168.1.5:1099/JADE: I bid $11011
+Bidder9@192.168.1.5:1099/JADE: I bid $11011
+Bidder24@192.168.1.5:1099/JADE: I bid $11011
+Bidder18@192.168.1.5:1099/JADE: I bid $11011
+Bidder12@192.168.1.5:1099/JADE: I bid $11011
+Bidder8@192.168.1.5:1099/JADE: I bid $11011
+Bidder2@192.168.1.5:1099/JADE: I bid $11011
+Bidder21@192.168.1.5:1099/JADE: I bid $11011
+Bidder17@192.168.1.5:1099/JADE: I bid $11011
+Bidder11@192.168.1.5:1099/JADE: I bid $11011
+Bidder16@192.168.1.5:1099/JADE: I bid $11011
+Bidder22@192.168.1.5:1099/JADE: I bid $11011
+Bidder14@192.168.1.5:1099/JADE: I bid $11011
+Bidder1@192.168.1.5:1099/JADE: I bid $11011
+Bidder25@192.168.1.5:1099/JADE: I bid $11011
+Bidder4@192.168.1.5:1099/JADE: I bid $11011
+Bidder7@192.168.1.5:1099/JADE: I bid $11011
+Bidder5@192.168.1.5:1099/JADE: I bid $11011
+MaliciousAgentCollaborative15@192.168.1.5:1099/JADE: I bid $11011
+Auctioneer: Lowest bid so far: $11011 for agents Bidder19@192.168.1.5:1099/JADE, Bidder23@192.168.1.5:1099/JADE, Bidder9@192.168.1.5:1099/JADE, Bidder11@192.168.1.5:1099/JADE, Bidder24@192.168.1.5:1099/JADE, Bidder18@192.168.1.5:1099/JADE, Bidder12@192.168.1.5:1099/JADE, Bidder8@192.168.1.5:1099/JADE, Bidder17@192.168.1.5:1099/JADE, Bidder21@192.168.1.5:1099/JADE, Bidder2@192.168.1.5:1099/JADE, Bidder16@192.168.1.5:1099/JADE, Bidder22@192.168.1.5:1099/JADE, Bidder14@192.168.1.5:1099/JADE, Bidder1@192.168.1.5:1099/JADE, Bidder4@192.168.1.5:1099/JADE, Bidder5@192.168.1.5:1099/JADE, Bidder25@192.168.1.5:1099/JADE, Bidder7@192.168.1.5:1099/JADE, MaliciousAgentCollaborative15@192.168.1.5:1099/JADE.
+Auctioneer: Round Nr.17 - Do I hear $10696?
+Bidder9@192.168.1.5:1099/JADE: I bid $10696
+Bidder23@192.168.1.5:1099/JADE: I don't want to bid the current ask price
+Bidder19@192.168.1.5:1099/JADE: I bid $10696
+Bidder11@192.168.1.5:1099/JADE: I bid $10696
+Bidder24@192.168.1.5:1099/JADE: I bid $10696
+Bidder18@192.168.1.5:1099/JADE: I bid $10696
+Bidder12@192.168.1.5:1099/JADE: I bid $10696
+Bidder17@192.168.1.5:1099/JADE: I bid $10696
+Bidder2@192.168.1.5:1099/JADE: I bid $10696
+Bidder16@192.168.1.5:1099/JADE: I bid $10696
+Bidder22@192.168.1.5:1099/JADE: I bid $10696
+Bidder1@192.168.1.5:1099/JADE: I don't want to bid the current ask price
+Bidder14@192.168.1.5:1099/JADE: I bid $10696
+Bidder21@192.168.1.5:1099/JADE: I bid $10696
+Bidder8@192.168.1.5:1099/JADE: I bid $10696
+Bidder5@192.168.1.5:1099/JADE: I bid $10696
+Bidder25@192.168.1.5:1099/JADE: I bid $10696
+Bidder7@192.168.1.5:1099/JADE: I bid $10696
+Bidder4@192.168.1.5:1099/JADE: I bid $10696
+MaliciousAgentCollaborative15@192.168.1.5:1099/JADE: I bid $10696
+Auctioneer: Lowest bid so far: $10696 for agents Bidder19@192.168.1.5:1099/JADE, Bidder9@192.168.1.5:1099/JADE, Bidder11@192.168.1.5:1099/JADE, Bidder24@192.168.1.5:1099/JADE, Bidder18@192.168.1.5:1099/JADE, Bidder12@192.168.1.5:1099/JADE, Bidder8@192.168.1.5:1099/JADE, Bidder17@192.168.1.5:1099/JADE, Bidder21@192.168.1.5:1099/JADE, Bidder2@192.168.1.5:1099/JADE, Bidder16@192.168.1.5:1099/JADE, Bidder22@192.168.1.5:1099/JADE, Bidder14@192.168.1.5:1099/JADE, Bidder4@192.168.1.5:1099/JADE, Bidder5@192.168.1.5:1099/JADE, Bidder25@192.168.1.5:1099/JADE, Bidder7@192.168.1.5:1099/JADE, MaliciousAgentCollaborative15@192.168.1.5:1099/JADE.
+Auctioneer: Round Nr.18 - Do I hear $10381?
+Bidder18@192.168.1.5:1099/JADE: I bid $10381
+Bidder19@192.168.1.5:1099/JADE: I bid $10381
+Bidder9@192.168.1.5:1099/JADE: I bid $10381
+Bidder24@192.168.1.5:1099/JADE: I bid $10381
+Bidder11@192.168.1.5:1099/JADE: I bid $10381
+Bidder12@192.168.1.5:1099/JADE: I bid $10381
+Bidder8@192.168.1.5:1099/JADE: I bid $10381
+Bidder17@192.168.1.5:1099/JADE: I bid $10381
+Bidder2@192.168.1.5:1099/JADE: I bid $10381
+Bidder22@192.168.1.5:1099/JADE: I bid $10381
+Bidder16@192.168.1.5:1099/JADE: I bid $10381
+Bidder21@192.168.1.5:1099/JADE: I bid $10381
+Bidder14@192.168.1.5:1099/JADE: I bid $10381
+Bidder5@192.168.1.5:1099/JADE: I bid $10381
+Bidder25@192.168.1.5:1099/JADE: I bid $10381
+Bidder7@192.168.1.5:1099/JADE: I bid $10381
+Bidder4@192.168.1.5:1099/JADE: I bid $10381
+MaliciousAgentCollaborative15@192.168.1.5:1099/JADE: I bid $10381
+Auctioneer: Lowest bid so far: $10381 for agents Bidder19@192.168.1.5:1099/JADE, Bidder9@192.168.1.5:1099/JADE, Bidder11@192.168.1.5:1099/JADE, Bidder24@192.168.1.5:1099/JADE, Bidder18@192.168.1.5:1099/JADE, Bidder12@192.168.1.5:1099/JADE, Bidder8@192.168.1.5:1099/JADE, Bidder17@192.168.1.5:1099/JADE, Bidder21@192.168.1.5:1099/JADE, Bidder2@192.168.1.5:1099/JADE, Bidder16@192.168.1.5:1099/JADE, Bidder22@192.168.1.5:1099/JADE, Bidder14@192.168.1.5:1099/JADE, Bidder4@192.168.1.5:1099/JADE, Bidder5@192.168.1.5:1099/JADE, Bidder25@192.168.1.5:1099/JADE, Bidder7@192.168.1.5:1099/JADE, MaliciousAgentCollaborative15@192.168.1.5:1099/JADE.
+Auctioneer: Round Nr.19 - Do I hear $10066?
+Bidder9@192.168.1.5:1099/JADE: I bid $10066
+Bidder19@192.168.1.5:1099/JADE: I bid $10066
+Bidder11@192.168.1.5:1099/JADE: I bid $10066
+Bidder21@192.168.1.5:1099/JADE: I bid $10066
+Bidder2@192.168.1.5:1099/JADE: I bid $10066
+Bidder4@192.168.1.5:1099/JADE: I bid $10066
+Bidder8@192.168.1.5:1099/JADE: I bid $10066
+Bidder25@192.168.1.5:1099/JADE: I don't want to bid the current ask price
+Bidder17@192.168.1.5:1099/JADE: I bid $10066
+Bidder12@192.168.1.5:1099/JADE: I bid $10066
+Bidder18@192.168.1.5:1099/JADE: I bid $10066
+Bidder24@192.168.1.5:1099/JADE: I bid $10066
+Bidder7@192.168.1.5:1099/JADE: I bid $10066
+Bidder5@192.168.1.5:1099/JADE: I bid $10066
+Bidder16@192.168.1.5:1099/JADE: I bid $10066
+Bidder14@192.168.1.5:1099/JADE: I bid $10066
+Bidder22@192.168.1.5:1099/JADE: I bid $10066
+MaliciousAgentCollaborative15@192.168.1.5:1099/JADE: I bid $10066
+Auctioneer: Lowest bid so far: $10066 for agents Bidder19@192.168.1.5:1099/JADE, Bidder9@192.168.1.5:1099/JADE, Bidder11@192.168.1.5:1099/JADE, Bidder24@192.168.1.5:1099/JADE, Bidder18@192.168.1.5:1099/JADE, Bidder12@192.168.1.5:1099/JADE, Bidder8@192.168.1.5:1099/JADE, Bidder17@192.168.1.5:1099/JADE, Bidder21@192.168.1.5:1099/JADE, Bidder2@192.168.1.5:1099/JADE, Bidder16@192.168.1.5:1099/JADE, Bidder22@192.168.1.5:1099/JADE, Bidder14@192.168.1.5:1099/JADE, Bidder4@192.168.1.5:1099/JADE, Bidder5@192.168.1.5:1099/JADE, Bidder7@192.168.1.5:1099/JADE, MaliciousAgentCollaborative15@192.168.1.5:1099/JADE.
+Auctioneer: Round Nr.20 - Do I hear $9751?
+Bidder19@192.168.1.5:1099/JADE: I bid $9751
+Bidder11@192.168.1.5:1099/JADE: I bid $9751
+Bidder9@192.168.1.5:1099/JADE: I bid $9751
+Bidder12@192.168.1.5:1099/JADE: I bid $9751
+Bidder24@192.168.1.5:1099/JADE: I bid $9751
+Bidder17@192.168.1.5:1099/JADE: I bid $9751
+Bidder8@192.168.1.5:1099/JADE: I bid $9751
+Bidder21@192.168.1.5:1099/JADE: I bid $9751
+Bidder16@192.168.1.5:1099/JADE: I bid $9751
+Bidder2@192.168.1.5:1099/JADE: I bid $9751
+Bidder22@192.168.1.5:1099/JADE: I bid $9751
+Bidder4@192.168.1.5:1099/JADE: I bid $9751
+Bidder14@192.168.1.5:1099/JADE: I bid $9751
+Bidder5@192.168.1.5:1099/JADE: I don't want to bid the current ask price
+Bidder18@192.168.1.5:1099/JADE: I bid $9751
+Bidder7@192.168.1.5:1099/JADE: I bid $9751
+MaliciousAgentCollaborative15@192.168.1.5:1099/JADE: I bid $9751
+Auctioneer: Lowest bid so far: $9751 for agents Bidder19@192.168.1.5:1099/JADE, Bidder9@192.168.1.5:1099/JADE, Bidder11@192.168.1.5:1099/JADE, Bidder24@192.168.1.5:1099/JADE, Bidder18@192.168.1.5:1099/JADE, Bidder12@192.168.1.5:1099/JADE, Bidder8@192.168.1.5:1099/JADE, Bidder17@192.168.1.5:1099/JADE, Bidder21@192.168.1.5:1099/JADE, Bidder2@192.168.1.5:1099/JADE, Bidder16@192.168.1.5:1099/JADE, Bidder22@192.168.1.5:1099/JADE, Bidder14@192.168.1.5:1099/JADE, Bidder4@192.168.1.5:1099/JADE, Bidder7@192.168.1.5:1099/JADE, MaliciousAgentCollaborative15@192.168.1.5:1099/JADE.
+Auctioneer: Round Nr.21 - Do I hear $9436?
+Bidder11@192.168.1.5:1099/JADE: I bid $9436
+Bidder9@192.168.1.5:1099/JADE: I bid $9436
+Bidder24@192.168.1.5:1099/JADE: I bid $9436
+Bidder19@192.168.1.5:1099/JADE: I bid $9436
+Bidder8@192.168.1.5:1099/JADE: I bid $9436
+Bidder12@192.168.1.5:1099/JADE: I bid $9436
+Bidder17@192.168.1.5:1099/JADE: I bid $9436
+Bidder16@192.168.1.5:1099/JADE: I bid $9436
+Bidder18@192.168.1.5:1099/JADE: I bid $9436
+Bidder21@192.168.1.5:1099/JADE: I bid $9436
+Bidder22@192.168.1.5:1099/JADE: I bid $9436
+Bidder14@192.168.1.5:1099/JADE: I bid $9436
+Bidder4@192.168.1.5:1099/JADE: I bid $9436
+Bidder2@192.168.1.5:1099/JADE: I bid $9436
+Bidder7@192.168.1.5:1099/JADE: I bid $9436
+MaliciousAgentCollaborative15@192.168.1.5:1099/JADE: I bid $9436
+Auctioneer: Lowest bid so far: $9436 for agents Bidder19@192.168.1.5:1099/JADE, Bidder9@192.168.1.5:1099/JADE, Bidder11@192.168.1.5:1099/JADE, Bidder24@192.168.1.5:1099/JADE, Bidder18@192.168.1.5:1099/JADE, Bidder12@192.168.1.5:1099/JADE, Bidder8@192.168.1.5:1099/JADE, Bidder17@192.168.1.5:1099/JADE, Bidder21@192.168.1.5:1099/JADE, Bidder2@192.168.1.5:1099/JADE, Bidder16@192.168.1.5:1099/JADE, Bidder22@192.168.1.5:1099/JADE, Bidder14@192.168.1.5:1099/JADE, Bidder4@192.168.1.5:1099/JADE, Bidder7@192.168.1.5:1099/JADE, MaliciousAgentCollaborative15@192.168.1.5:1099/JADE.
+Auctioneer: Round Nr.22 - Do I hear $9121?
+Bidder19@192.168.1.5:1099/JADE: I bid $9121
+Bidder11@192.168.1.5:1099/JADE: I bid $9121
+Bidder9@192.168.1.5:1099/JADE: I bid $9121
+Bidder8@192.168.1.5:1099/JADE: I bid $9121
+Bidder21@192.168.1.5:1099/JADE: I bid $9121
+Bidder2@192.168.1.5:1099/JADE: I bid $9121
+Bidder17@192.168.1.5:1099/JADE: I bid $9121
+Bidder12@192.168.1.5:1099/JADE: I don't want to bid the current ask price
+Bidder24@192.168.1.5:1099/JADE: I bid $9121
+Bidder18@192.168.1.5:1099/JADE: I bid $9121
+Bidder16@192.168.1.5:1099/JADE: I bid $9121
+Bidder14@192.168.1.5:1099/JADE: I bid $9121
+Bidder22@192.168.1.5:1099/JADE: I bid $9121
+Bidder4@192.168.1.5:1099/JADE: I bid $9121
+Bidder7@192.168.1.5:1099/JADE: I bid $9121
+MaliciousAgentCollaborative15@192.168.1.5:1099/JADE: I bid $9121
+Auctioneer: Lowest bid so far: $9121 for agents Bidder19@192.168.1.5:1099/JADE, Bidder9@192.168.1.5:1099/JADE, Bidder11@192.168.1.5:1099/JADE, Bidder24@192.168.1.5:1099/JADE, Bidder18@192.168.1.5:1099/JADE, Bidder8@192.168.1.5:1099/JADE, Bidder17@192.168.1.5:1099/JADE, Bidder21@192.168.1.5:1099/JADE, Bidder2@192.168.1.5:1099/JADE, Bidder16@192.168.1.5:1099/JADE, Bidder22@192.168.1.5:1099/JADE, Bidder14@192.168.1.5:1099/JADE, Bidder4@192.168.1.5:1099/JADE, Bidder7@192.168.1.5:1099/JADE, MaliciousAgentCollaborative15@192.168.1.5:1099/JADE.
+Auctioneer: Round Nr.23 - Do I hear $8806?
+Bidder19@192.168.1.5:1099/JADE: I bid $8806
+Bidder18@192.168.1.5:1099/JADE: I bid $8806
+Bidder8@192.168.1.5:1099/JADE: I bid $8806
+Bidder17@192.168.1.5:1099/JADE: I bid $8806
+Bidder9@192.168.1.5:1099/JADE: I bid $8806
+Bidder24@192.168.1.5:1099/JADE: I bid $8806
+Bidder11@192.168.1.5:1099/JADE: I bid $8806
+Bidder21@192.168.1.5:1099/JADE: I bid $8806
+Bidder2@192.168.1.5:1099/JADE: I bid $8806
+Bidder16@192.168.1.5:1099/JADE: I don't want to bid the current ask price
+Bidder22@192.168.1.5:1099/JADE: I bid $8806
+Bidder14@192.168.1.5:1099/JADE: I bid $8806
+Bidder4@192.168.1.5:1099/JADE: I bid $8806
+Bidder7@192.168.1.5:1099/JADE: I bid $8806
+MaliciousAgentCollaborative15@192.168.1.5:1099/JADE: I bid $8806
+Auctioneer: Lowest bid so far: $8806 for agents Bidder19@192.168.1.5:1099/JADE, Bidder9@192.168.1.5:1099/JADE, Bidder11@192.168.1.5:1099/JADE, Bidder24@192.168.1.5:1099/JADE, Bidder18@192.168.1.5:1099/JADE, Bidder8@192.168.1.5:1099/JADE, Bidder17@192.168.1.5:1099/JADE, Bidder21@192.168.1.5:1099/JADE, Bidder2@192.168.1.5:1099/JADE, Bidder22@192.168.1.5:1099/JADE, Bidder14@192.168.1.5:1099/JADE, Bidder4@192.168.1.5:1099/JADE, Bidder7@192.168.1.5:1099/JADE, MaliciousAgentCollaborative15@192.168.1.5:1099/JADE.
+Auctioneer: Round Nr.24 - Do I hear $8491?
+Bidder19@192.168.1.5:1099/JADE: I bid $8491
+Bidder24@192.168.1.5:1099/JADE: I bid $8491
+Bidder9@192.168.1.5:1099/JADE: I don't want to bid the current ask price
+Bidder18@192.168.1.5:1099/JADE: I bid $8491
+Bidder11@192.168.1.5:1099/JADE: I bid $8491
+Bidder8@192.168.1.5:1099/JADE: I don't want to bid the current ask price
+Bidder7@192.168.1.5:1099/JADE: I bid $8491
+Bidder22@192.168.1.5:1099/JADE: I bid $8491
+Bidder21@192.168.1.5:1099/JADE: I don't want to bid the current ask price
+Bidder4@192.168.1.5:1099/JADE: I bid $8491
+Bidder14@192.168.1.5:1099/JADE: I bid $8491
+Bidder17@192.168.1.5:1099/JADE: I bid $8491
+Bidder2@192.168.1.5:1099/JADE: I bid $8491
+MaliciousAgentCollaborative15@192.168.1.5:1099/JADE: I bid $8491
+Auctioneer: Lowest bid so far: $8491 for agents Bidder19@192.168.1.5:1099/JADE, Bidder11@192.168.1.5:1099/JADE, Bidder24@192.168.1.5:1099/JADE, Bidder18@192.168.1.5:1099/JADE, Bidder17@192.168.1.5:1099/JADE, Bidder2@192.168.1.5:1099/JADE, Bidder22@192.168.1.5:1099/JADE, Bidder14@192.168.1.5:1099/JADE, Bidder4@192.168.1.5:1099/JADE, Bidder7@192.168.1.5:1099/JADE, MaliciousAgentCollaborative15@192.168.1.5:1099/JADE.
+Auctioneer: Round Nr.25 - Do I hear $8176?
+Bidder11@192.168.1.5:1099/JADE: I bid $8176
+Bidder24@192.168.1.5:1099/JADE: I bid $8176
+Bidder17@192.168.1.5:1099/JADE: I bid $8176
+Bidder2@192.168.1.5:1099/JADE: I bid $8176
+Bidder18@192.168.1.5:1099/JADE: I bid $8176
+Bidder19@192.168.1.5:1099/JADE: I bid $8176
+Bidder22@192.168.1.5:1099/JADE: I don't want to bid the current ask price
+Bidder14@192.168.1.5:1099/JADE: I bid $8176
+Bidder7@192.168.1.5:1099/JADE: I bid $8176
+Bidder4@192.168.1.5:1099/JADE: I bid $8176
+MaliciousAgentCollaborative15@192.168.1.5:1099/JADE: I bid $8176
+Auctioneer: Lowest bid so far: $8176 for agents Bidder19@192.168.1.5:1099/JADE, Bidder11@192.168.1.5:1099/JADE, Bidder24@192.168.1.5:1099/JADE, Bidder18@192.168.1.5:1099/JADE, Bidder17@192.168.1.5:1099/JADE, Bidder2@192.168.1.5:1099/JADE, Bidder14@192.168.1.5:1099/JADE, Bidder4@192.168.1.5:1099/JADE, Bidder7@192.168.1.5:1099/JADE, MaliciousAgentCollaborative15@192.168.1.5:1099/JADE.
+Auctioneer: Round Nr.26 - Do I hear $7861?
+Bidder19@192.168.1.5:1099/JADE: I bid $7861
+Bidder24@192.168.1.5:1099/JADE: I bid $7861
+Bidder18@192.168.1.5:1099/JADE: I bid $7861
+Bidder11@192.168.1.5:1099/JADE: I bid $7861
+Bidder17@192.168.1.5:1099/JADE: I bid $7861
+Bidder2@192.168.1.5:1099/JADE: I bid $7861
+Bidder7@192.168.1.5:1099/JADE: I bid $7861
+Bidder4@192.168.1.5:1099/JADE: I bid $7861
+Bidder14@192.168.1.5:1099/JADE: I don't want to bid the current ask price
+MaliciousAgentCollaborative15@192.168.1.5:1099/JADE: I bid $7861
+Auctioneer: Lowest bid so far: $7861 for agents Bidder19@192.168.1.5:1099/JADE, Bidder11@192.168.1.5:1099/JADE, Bidder24@192.168.1.5:1099/JADE, Bidder18@192.168.1.5:1099/JADE, Bidder17@192.168.1.5:1099/JADE, Bidder2@192.168.1.5:1099/JADE, Bidder4@192.168.1.5:1099/JADE, Bidder7@192.168.1.5:1099/JADE, MaliciousAgentCollaborative15@192.168.1.5:1099/JADE.
+Auctioneer: Round Nr.27 - Do I hear $7546?
+Bidder19@192.168.1.5:1099/JADE: I bid $7546
+Bidder11@192.168.1.5:1099/JADE: I bid $7546
+Bidder17@192.168.1.5:1099/JADE: I don't want to bid the current ask price
+Bidder2@192.168.1.5:1099/JADE: I bid $7546
+Bidder4@192.168.1.5:1099/JADE: I bid $7546
+Bidder18@192.168.1.5:1099/JADE: I bid $7546
+Bidder24@192.168.1.5:1099/JADE: I bid $7546
+Bidder7@192.168.1.5:1099/JADE: I bid $7546
+MaliciousAgentCollaborative15@192.168.1.5:1099/JADE: I bid $7546
+Auctioneer: Lowest bid so far: $7546 for agents Bidder19@192.168.1.5:1099/JADE, Bidder11@192.168.1.5:1099/JADE, Bidder24@192.168.1.5:1099/JADE, Bidder18@192.168.1.5:1099/JADE, Bidder2@192.168.1.5:1099/JADE, Bidder4@192.168.1.5:1099/JADE, Bidder7@192.168.1.5:1099/JADE, MaliciousAgentCollaborative15@192.168.1.5:1099/JADE.
+Auctioneer: Round Nr.28 - Do I hear $7231?
+Bidder24@192.168.1.5:1099/JADE: I bid $7231
+Bidder11@192.168.1.5:1099/JADE: I bid $7231
+Bidder19@192.168.1.5:1099/JADE: I bid $7231
+Bidder18@192.168.1.5:1099/JADE: I bid $7231
+Bidder2@192.168.1.5:1099/JADE: I bid $7231
+Bidder4@192.168.1.5:1099/JADE: I bid $7231
+Bidder7@192.168.1.5:1099/JADE: I bid $7231
+MaliciousAgentCollaborative15@192.168.1.5:1099/JADE: I bid $7231
+Auctioneer: Lowest bid so far: $7231 for agents Bidder19@192.168.1.5:1099/JADE, Bidder11@192.168.1.5:1099/JADE, Bidder24@192.168.1.5:1099/JADE, Bidder18@192.168.1.5:1099/JADE, Bidder2@192.168.1.5:1099/JADE, Bidder4@192.168.1.5:1099/JADE, Bidder7@192.168.1.5:1099/JADE, MaliciousAgentCollaborative15@192.168.1.5:1099/JADE.
+Auctioneer: Round Nr.29 - Do I hear $6916?
+Bidder19@192.168.1.5:1099/JADE: I bid $6916
+Bidder11@192.168.1.5:1099/JADE: I bid $6916
+Bidder24@192.168.1.5:1099/JADE: I bid $6916
+Bidder18@192.168.1.5:1099/JADE: I bid $6916
+Bidder2@192.168.1.5:1099/JADE: I bid $6916
+Bidder4@192.168.1.5:1099/JADE: I bid $6916
+Bidder7@192.168.1.5:1099/JADE: I bid $6916
+MaliciousAgentCollaborative15@192.168.1.5:1099/JADE: I bid $6916
+Auctioneer: Lowest bid so far: $6916 for agents Bidder19@192.168.1.5:1099/JADE, Bidder11@192.168.1.5:1099/JADE, Bidder24@192.168.1.5:1099/JADE, Bidder18@192.168.1.5:1099/JADE, Bidder2@192.168.1.5:1099/JADE, Bidder4@192.168.1.5:1099/JADE, Bidder7@192.168.1.5:1099/JADE, MaliciousAgentCollaborative15@192.168.1.5:1099/JADE.
+Auctioneer: Round Nr.30 - Do I hear $6601?
+Bidder19@192.168.1.5:1099/JADE: I bid $6601
+Bidder24@192.168.1.5:1099/JADE: I bid $6601
+Bidder11@192.168.1.5:1099/JADE: I bid $6601
+Bidder18@192.168.1.5:1099/JADE: I bid $6601
+Bidder2@192.168.1.5:1099/JADE: I don't want to bid the current ask price
+Bidder7@192.168.1.5:1099/JADE: I bid $6601
+Bidder4@192.168.1.5:1099/JADE: I bid $6601
+MaliciousAgentCollaborative15@192.168.1.5:1099/JADE: I bid $6601
+Auctioneer: Lowest bid so far: $6601 for agents Bidder19@192.168.1.5:1099/JADE, Bidder11@192.168.1.5:1099/JADE, Bidder24@192.168.1.5:1099/JADE, Bidder18@192.168.1.5:1099/JADE, Bidder4@192.168.1.5:1099/JADE, Bidder7@192.168.1.5:1099/JADE, MaliciousAgentCollaborative15@192.168.1.5:1099/JADE.
+Auctioneer: Round Nr.31 - Do I hear $6286?
+Bidder19@192.168.1.5:1099/JADE: I don't want to bid the current ask price
+Bidder11@192.168.1.5:1099/JADE: I don't want to bid the current ask price
+Bidder18@192.168.1.5:1099/JADE: I bid $6286
+Bidder24@192.168.1.5:1099/JADE: I bid $6286
+Bidder4@192.168.1.5:1099/JADE: I bid $6286
+Bidder7@192.168.1.5:1099/JADE: I bid $6286
+MaliciousAgentCollaborative15@192.168.1.5:1099/JADE: I bid $6286
+Auctioneer: Lowest bid so far: $6286 for agents Bidder24@192.168.1.5:1099/JADE, Bidder18@192.168.1.5:1099/JADE, Bidder4@192.168.1.5:1099/JADE, Bidder7@192.168.1.5:1099/JADE, MaliciousAgentCollaborative15@192.168.1.5:1099/JADE.
+Auctioneer: Round Nr.32 - Do I hear $5971?
+Bidder7@192.168.1.5:1099/JADE: I don't want to bid the current ask price
+Bidder24@192.168.1.5:1099/JADE: I bid $5971
+Bidder4@192.168.1.5:1099/JADE: I bid $5971
+Bidder18@192.168.1.5:1099/JADE: I don't want to bid the current ask price
+MaliciousAgentCollaborative15@192.168.1.5:1099/JADE: I bid $5971
+Auctioneer: Lowest bid so far: $5971 for agents Bidder24@192.168.1.5:1099/JADE, Bidder4@192.168.1.5:1099/JADE, MaliciousAgentCollaborative15@192.168.1.5:1099/JADE.
+Auctioneer: Round Nr.33 - Do I hear $5656?
+Bidder24@192.168.1.5:1099/JADE: I don't want to bid the current ask price
+Bidder4@192.168.1.5:1099/JADE: I bid $5656
+MaliciousAgentCollaborative15@192.168.1.5:1099/JADE: I bid $5656
+Auctioneer: Lowest bid so far: $5656 for agents Bidder4@192.168.1.5:1099/JADE, MaliciousAgentCollaborative15@192.168.1.5:1099/JADE.
+Auctioneer: Round Nr.34 - Do I hear $5341?
+Bidder4@192.168.1.5:1099/JADE: I don't want to bid the current ask price
+MaliciousAgentCollaborative15@192.168.1.5:1099/JADE: I bid $5341
+Auctioneer: Lowest bid so far: $5341 for agent MaliciousAgentCollaborative15@192.168.1.5:1099/JADE.
+Amount of potential winners: 1
+Auctioneer: Sold to the bidder MaliciousAgentCollaborative15@192.168.1.5:1099/JADE for $5341
+Auctioneer Seller@192.168.1.5:1099/JADE terminating.
+Bidder Bidder23@192.168.1.5:1099/JADE terminating.
+Bidder Bidder19@192.168.1.5:1099/JADE terminating.
+Bidder Bidder11@192.168.1.5:1099/JADE terminating.
+Bidder Bidder12@192.168.1.5:1099/JADE terminating.
+Bidder Bidder8@192.168.1.5:1099/JADE terminating.
+Bidder Bidder17@192.168.1.5:1099/JADE terminating.
+Bidder Bidder13@192.168.1.5:1099/JADE terminating.
+Bidder Bidder9@192.168.1.5:1099/JADE terminating.
+Bidder Bidder18@192.168.1.5:1099/JADE terminating.
+Bidder Bidder2@192.168.1.5:1099/JADE terminating.
+Bidder Bidder21@192.168.1.5:1099/JADE terminating.
+Bidder Bidder16@192.168.1.5:1099/JADE terminating.
+Bidder Bidder22@192.168.1.5:1099/JADE terminating.
+Bidder Bidder24@192.168.1.5:1099/JADE terminating.
+Bidder Bidder1@192.168.1.5:1099/JADE terminating.
+Bidder Bidder15@192.168.1.5:1099/JADE terminating.
+Bidder Bidder14@192.168.1.5:1099/JADE terminating.
+Bidder Bidder5@192.168.1.5:1099/JADE terminating.
+Bidder Bidder3@192.168.1.5:1099/JADE terminating.
+Bidder Bidder4@192.168.1.5:1099/JADE terminating.
+Bidder Bidder25@192.168.1.5:1099/JADE terminating.
+Bidder Bidder7@192.168.1.5:1099/JADE terminating.
+Bidder Bidder20@192.168.1.5:1099/JADE terminating.
+Bidder Bidder6@192.168.1.5:1099/JADE terminating.
+Malicious Agent MaliciousAgentCollaborative20@192.168.1.5:1099/JADE terminating.
+Bidder Bidder10@192.168.1.5:1099/JADE terminating.
+Malicious Agent MaliciousAgentCollaborative23@192.168.1.5:1099/JADE terminating.
+Malicious Agent MaliciousAgentCollaborative22@192.168.1.5:1099/JADE terminating.
+Malicious Agent MaliciousAgentCollaborative7@192.168.1.5:1099/JADE terminating.
+Malicious Agent MaliciousAgentCollaborative6@192.168.1.5:1099/JADE terminating.
+Malicious Agent MaliciousAgentCollaborative17@192.168.1.5:1099/JADE terminating.
+Malicious Agent MaliciousAgentCollaborative8@192.168.1.5:1099/JADE terminating.
+Malicious Agent MaliciousAgentCollaborative16@192.168.1.5:1099/JADE terminating.
+Malicious Agent MaliciousAgentCollaborative9@192.168.1.5:1099/JADE terminating.
+Malicious Agent MaliciousAgentCollaborative10@192.168.1.5:1099/JADE terminating.
+Malicious Agent MaliciousAgentCollaborative18@192.168.1.5:1099/JADE terminating.
+Malicious Agent MaliciousAgentCollaborative12@192.168.1.5:1099/JADE terminating.
+Malicious Agent MaliciousAgentCollaborative19@192.168.1.5:1099/JADE terminating.
+Malicious Agent MaliciousAgentCollaborative2@192.168.1.5:1099/JADE terminating.
+Malicious Agent MaliciousAgentCollaborative25@192.168.1.5:1099/JADE terminating.
+Malicious Agent MaliciousAgentCollaborative11@192.168.1.5:1099/JADE terminating.
+Malicious Agent MaliciousAgentCollaborative24@192.168.1.5:1099/JADE terminating.
+Malicious Agent MaliciousAgentCollaborative1@192.168.1.5:1099/JADE terminating.
+Malicious Agent MaliciousAgentCollaborative14@192.168.1.5:1099/JADE terminating.
+Malicious Agent MaliciousAgentCollaborative4@192.168.1.5:1099/JADE terminating.
+Malicious Agent MaliciousAgentCollaborative13@192.168.1.5:1099/JADE terminating.
+Malicious Agent MaliciousAgentCollaborative21@192.168.1.5:1099/JADE terminating.
+Malicious Agent MaliciousAgentCollaborative3@192.168.1.5:1099/JADE terminating.
+Malicious Agent MaliciousAgentCollaborative5@192.168.1.5:1099/JADE terminating.
+Malicious Agent MaliciousAgentCollaborative15@192.168.1.5:1099/JADE terminating.
+Evaluation agent Evaluation-Agent@192.168.1.5:1099/JADE terminating.

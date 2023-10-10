@@ -8,7 +8,7 @@ In folder 'src/English', all the java source code files are stored that contain 
 
 # 3 Installation Instructions
 
-To run this Java project, the JADE library can either be installed (https://jade.tilab.com/download/jade/), or the JADE library included in the repository can be used. For JADE to work, a complete Java programming environment is needed. At least a Java Development Kit version 1.4 is required. Finally, to be able to work with JSON, the org.json package has to be downloaded as well (https://github.com/stleary/JSON-java/blob/master/README.md).
+To run this Java project, the JADE library can either be installed (https://jade.tilab.com/download/jade/), or the JADE library included in the repository can be used. For JADE to work, a complete Java programming environment is needed. At least a Java Development Kit version 1.4 is required. Finally, to be able to work with JSON, the org.json package has to be downloaded (https://github.com/stleary/JSON-java/blob/master/README.md).
 
 # 4 Running Instructions
 
